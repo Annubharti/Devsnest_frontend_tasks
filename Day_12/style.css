@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(to right, #E100FF, #7F00FF); 
+    
+    }
+    
+    h2{
+        text-align: center;
+        margin-top: 6%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        border: 2px solid black;
+        margin-left: 30%;
+        width: 450px;
+        border-radius: 15%;
+        margin-bottom: 30px;
+    
+    
+    
+    }
+    
+    
+    .container{
+        width: 716px;
+        border: 2px solid black;
+        overflow: visible;
+        background-color: linear-gradient(to right, #E100FF, #7F00FF); 
+        margin-left: 20%;
+        list-style: none;
+    }
+    .card{
+        border: 2px solid black;
+        margin: 4px;
+        margin-left: -29px;
+        align-self: center;
+    
+    
+    
+    }
+    
+    .addNote{
+        border: 2px solid black;
+        padding: 5px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    
+    .addBtn{
+        padding: 7px;
+        margin:3px;
+        font-style: bold;
+        font-size: large;
+        font-weight: 300;
+        align-self: center;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    
+    
+    .deleteBtn{
+        font-size:30px;
+        width: 45px;
+        height: 45px;
+        margin-bottom: 10px;
+        color:black;
+        position: relative;
+        display: inline-block;
+    
+    
+    
+    }
+    
+    .editBtn{
+        font-size:30px;
+        color:black;
+        width: 45px;
+        height: 45px;
+        position: relative;
+        display: inline-block;
+        margin-right: 10px;
+    
+    
+    }
+    
+    .noteText{
+        width: 75%;
+        position: relative;
+        font-size: large;
+        font-size: x-large;
+        overflow: visible;
+        margin: 1%;
+        padding: 4px;
+    
+    }
+  
