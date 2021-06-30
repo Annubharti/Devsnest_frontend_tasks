@@ -1,0 +1,50 @@
+body {
+    background-image: url("thumb-1920-764078.jpg");
+    margin: 25px;
+}
+
+h1{
+    color: #ffff;
+    margin: 4%;
+    background-color:maroon;
+    text-align: center;
+    font-size: 45px;
+    font-family: 35px "vesper Libre", serif;
+}
+
+#myData {
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 65px;
+    font-family: 35px "vesper Libre", serif;
+    color: #FFFFFF;
+    margin: 10px ;
+}
+#author{
+    text-align: right;
+    color: burlywood;
+    background-color: darkgreen;
+    padding: 5px;
+    font-family: 35px "vesper Libre", serif;
+    margin: 15px;
+    font-size: 40px;
+    float: right;
+
+}
+
+button{
+    text-align: center;
+    float: center;
+    padding: 2%;
+    font-family: 35px "vesper Libre", serif;
+    margin: 15px;
+    font-size: 35px;
+    border-radius: 5%;
+    margin-top: 8%;
+    margin-left: 35%;
+    color: moccasin;
+    background-color: navy;
+    
+    
+}
+
