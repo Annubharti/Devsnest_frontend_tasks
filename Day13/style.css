@@ -3,9 +3,9 @@ body {
     margin: 25px;
 }
 
-h1{
+h2{
     color: #ffff;
-    margin: 4%;
+    margin: 3%;
     background-color:maroon;
     text-align: center;
     font-size: 45px;
@@ -15,7 +15,7 @@ h1{
 #myData {
     background-color: blueviolet;
     text-align: center;
-    font-size: 65px;
+    font-size: 55px;
     font-family: 35px "vesper Libre", serif;
     color: #FFFFFF;
     margin: 10px ;
@@ -40,10 +40,13 @@ button{
     margin: 15px;
     font-size: 35px;
     border-radius: 5%;
-    margin-top: 8%;
+    margin-top: 90px;
     margin-left: 35%;
     color: moccasin;
     background-color: navy;
+    border: 5px solid silver;
+    border-radius: 10px;
+    
     
     
 }
