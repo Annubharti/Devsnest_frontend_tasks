@@ -2,8 +2,11 @@ import React from "react";
 import ReactDOM  from "react-dom";
 import "./style.css"
 import Days from "./Days"
-import Day15App from "./Day_15/index"
-import Day16App from "./Day_16/index";
+import Day15App from "./Day_15/day_15_index"
+import Day16App from "./Day_16/day_16_index";
+import Day17App from "./Day_17/day_17_index";
+import Day18App from "./Day_18/day_18_index";
+
 
 import {
     BrowserRouter as Router,
@@ -12,21 +15,22 @@ import {
 } from 'react-router-dom';
 
 
-const Header = () =>{
-    return <header>React THAs</header>
-}
+
 
 ReactDOM.render(
     <Router>
 <div>
-    <Header />  
+  
     <hr />
     <Switch>
         <Route exact path="/"> <Days /></Route>
-        <Route path="/Day15"><Day15App /></Route>
-        <Route path="/Day16"><Day16App /></Route>
+        <Route path="/Day15"> < Day15App /> </Route>
+        <Route path="/Day16"> <Day16App /> </Route>
+        <Route path="/Day17"> <Day17App /> </Route>
+        <Route path="/Day18"> <Day18App /> </Route>
 
-        
+
+
     </Switch>
     
 </div>

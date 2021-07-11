@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM  from "react-dom";
-import "./style.css"
+import "./day_15_style.css"
 
 function Day15App(){
     

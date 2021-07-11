@@ -1,9 +1,25 @@
-const Box = () =>{
-    return (
-        <div className="box">
+import Rows from "./Rows";
+import "../day_16_style.css"
 
-        </div>
-    )
-}
 
-export default Box
+const Box = () => { 
+        return (<div className="box">
+       
+      <Rows />
+      <Rows />
+      <Rows />
+      <Rows />
+      <Rows />
+      <Rows />
+      <Rows />
+      <Rows />
+
+    </div>
+  );
+
+      
+};
+
+
+
+export default Box;

@@ -1,3 +1,5 @@
+import "../day_16_style.css"
+
 const Card = () =>{
     return (
         <div className="card">
