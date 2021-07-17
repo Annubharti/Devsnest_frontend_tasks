@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM  from "react-dom";
+import CommonFooter from "../common_components/footer";
 import "./day_15_style.css"
 
 function Day15App(){
@@ -11,6 +12,7 @@ function Day15App(){
           <br></br>
            Here concept of import, export, render is used. 
         </p>
+        <CommonFooter />
       </div>)
    
 }

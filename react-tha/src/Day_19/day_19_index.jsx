@@ -1,4 +1,5 @@
 import React from "react";
+import CommonFooter from "../common_components/footer";
 import Button1 from "./components/Button1";
 import Button2 from "./components/Button2";
 import Button3 from "./components/Button3";
@@ -36,6 +37,7 @@ const Day19App = () => {
         </ul>
       </h4>
       </center>
+      <CommonFooter />
     </div>
   );
 };

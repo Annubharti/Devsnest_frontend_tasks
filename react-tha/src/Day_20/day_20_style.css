@@ -3,16 +3,16 @@
     padding: 0;
     box-sizing: border-box;
   }
-
-
-  h2{
-      text-align: left;
-      margin-left: 0;
+  body{
+    background-image: linear-gradient(#ff9a9e, #fecfef);
+    background-repeat: no-repeat;
+  
   }
 
-  .title{
-    text-align: left;
-    margin: 0;
+
+  h2,p{
+      text-align: left;
+      margin-left: 0;
   }
   
   header{
@@ -26,33 +26,28 @@
   }
   
   
-  .foodCard{
-    width: 620px;
-    height: 540px;
+  .foodCardDay20{
+    width: 540px;
+    height: 520px;
     margin: 0 auto;
     padding: 10px;
     margin-top: 15px;
     overflow-y: auto;
     overflow-x: hidden;
-    box-shadow: 2px 3px 9px -1px #000;
+    box-shadow: 5px 3px 9px -1px #000;
+    background-color: white;
   }
   
   .item{
     border-radius: 5px;
     margin: 15px;
     font-weight: bold; 
-    box-shadow: 5px 2px 3px grey;
-    padding: 12px;
+    box-shadow: 10px 2px 3px grey;
+    padding: 15px;
     color: white;
     background-color: darkgreen     ;  
   }
-
- 
-
-.itemNameDay18{
-  text-align: center;
-  font-size: 30px;
-  
-}
-
-
+.deleteBtnDay20{
+    padding: 4px;
+    float: right;
+  }

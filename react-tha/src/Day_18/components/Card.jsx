@@ -8,7 +8,7 @@ const Card= (props) =>
      
          <div className="item">
             
-             <h2 className="itemName">{props.itemName}</h2>
+             <h2 className="itemNameDay18">{props.itemName}</h2>
                 { props.title > 50 ? 
                 <i class="fa fa-times-circle fa-1x fa-pull-right fa-border" style= {{ fontSize:"40px", color:"red", backgroundColor:"white"  }}></i> :            
                 <i class="fa fa-check-square fa-1x fa-pull-right fa-border" style= {{ fontSize:"40px", color:"white", backgoundColor: "white" }}></i>}    

@@ -7,7 +7,7 @@ function FoodApp() {
       <div className="App">
         <header> Calorie Read Only</header>
         <div className="scrollable">
-        <div className= "foodCard">
+        <div className= "foodCardDay_17">
         <Card itemName="Pizza"     title="56"/>
         <Card itemName="Burger"    title="69"/>
         <Card itemName="Coke"      title="500"/>

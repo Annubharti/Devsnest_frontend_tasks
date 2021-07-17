@@ -1,0 +1,35 @@
+[
+  {
+    "id": 0,
+    "food": "Burger",
+    "calorie": 69
+  },
+  {
+    "id": 1,
+    "food": "Coke",
+    "calorie": 500
+  },
+  {
+    "id": 2,
+    "food": "Brownie",
+    "calorie": 200
+  },
+  {
+    "id": 3,
+    "food": "ALLU Paratha",
+    "calorie": 568
+  },
+  {
+    "id": 4,
+    "food": "Chart",
+    "calorie": 567
+  },
+  { "id": 5, "food": "Puri Sabji", "calorie": 67 },
+  { "id": 6, "food": "Samosa", "calorie": 56 },
+  { "id": 7, "food": "Dosa", "calorie": 567 },
+  {
+    "id": 8,
+    "food": "IDLI",
+    "calorie": 31
+  }
+]
