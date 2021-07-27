@@ -25,6 +25,11 @@ function Days(){
         <li> <h1  className="day"><Link to="./Day18">Day 18</Link></h1> </li>
         <li> <h1  className="day"><Link to="./Day19">Day 19</Link></h1> </li>
         <li> <h1  className="day"><Link to="./Day20">Day 20</Link></h1> </li>
+        <li> <h1  className="day"><Link to="./Day21">Day 21</Link></h1> </li>
+        <li> <h1  className="day"><Link to="./Day22">Day 22</Link></h1> </li>
+        <li> <h1  className="day"><Link to="./Day24">Day 24</Link></h1> </li>
+
+
         
         </ul>  
         <footer className="footer">

@@ -1,4 +1,3 @@
-import Card from "./Card";
 import "../day_20_style.css"
 
 function FoodApp() {
