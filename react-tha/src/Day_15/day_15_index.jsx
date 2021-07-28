@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM  from "react-dom";
 import CommonFooter from "../common_components/footer";
 import "./day_15_style.css"
 
@@ -18,6 +17,5 @@ function Day15App(){
 }
 
 
-ReactDOM.render(<Day15App />, document.getElementById("root"))
 
 export default Day15App;

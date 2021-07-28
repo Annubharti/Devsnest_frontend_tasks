@@ -1,8 +1,9 @@
 .day24_navbar{
-    background-color: rgb(191, 161, 219);
+    background-color: rgb(204, 172, 235);
     height: 50px;
     text-align: center;
-    margin-top: 10px;
+    margin: 10px;
+
 
 
 }
@@ -19,3 +20,17 @@
 
 
 } 
+.day24LoginBtn{
+    margin-top: 50px;
+    padding: 10px;
+    background-color:cornflowerblue;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.day24Homeh2tag{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    word-spacing: 3px;
+}

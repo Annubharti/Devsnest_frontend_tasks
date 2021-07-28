@@ -1,26 +1,71 @@
-.App{
-    width: 45%;
-    border: 1px solid black;
-    margin: 0 auto;
-    margin-top: 10px;
+
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.day21Body{
+  background-image:url("https://image.freepik.com/free-photo/elevated-view-unhealthy-food-against-healthy-vegetables-white-background_23-2147882060.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
-  input{
-    height: 25px;
-    width: 230px;
-    margin: 15px;
-    font-size: 15px;
-    text-align: left;
-  }
+
+
+.day21container {
+  border: 2px dashed blue;
+  padding: 30px;
+  margin-bottom: 10px;
+
   
-  .add{
-    width: 94%;
-    height: 35px;
-    margin: 15px;
-    background-color: #0d6efd;
-    color: white;
-    font-size: 20px;
-  }
+}
+.day21header{
+  text-align: center;
+  display: block;
+  background-color: rgb(203, 203, 253);
+
+}
+.card-title{
+  border: 2px double black;
+}
+
+.Day21DeleteBtn{
+  background-color: rgb(231, 143, 143);
+  padding: 8px;
+  font-size: 20px;
+  margin-right: 10px;
+  width: 100px;
+
+}
+
+.Day21EditBtn{
+  background-color: rgb(185, 204, 228);
+  padding: 8px;
+  font-size: 20px;
+  width: 100px;
   
-  h1{
-    text-align: center;
-  }
+}
+
+.day21AddItemBtn{
+  padding: 10px;
+  background-color: rgb(61, 61, 124);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.day21Item{
+  margin: 2px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+
+ 
+  
+  
+  
+ 
