@@ -1,23 +1,34 @@
 import "./day_24_style.css";
-import { ReactDOM } from "react";
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
-import Dashboard from "./day_24_component/Dashboard";
-import About from "./day_24_component/About";
-import Home from "./day_24_component/Home";
-import Profile from "./day_24_component/Profile";
-
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Dashboard from "./day_24_component/Router/Dashboard";
+import About from "./day_24_component/Router/About";
+import Home from "./day_24_component/Router/Home";
+import Profile from "./day_24_component/Router/Profile";
+import { AuthContext } from "./Context/AuthContext";
 
 const Navbar = () => {
   return (
     <>
       <ul className="day24_navbar">
         <li>
-          {" "}
-          <Link to="/">Home</Link>
+          <Link to="/Day24">Home</Link>
         </li>
-        <li> <Link to="/Day24/about">About</Link></li>
-        <li> <Link to="/Day24/profile"> Profile</Link></li>
-        <li> <Link to="/dashboard">Dashboard</Link></li>
+        <li>
+          
+          <Link to="/Day24/about">About</Link>
+        </li>
+        <li>
+          
+          <Link to="/Day24/profile">Profile</Link>
+        </li>
+        <li>
+          <Link to="/Day24/dashboard">Dashboard</Link>
+        </li>
       </ul>
     </>
   );
@@ -26,18 +37,20 @@ const Navbar = () => {
 const Day24App = () => {
   return (
     <>
-      <Navbar />
-      <div className="bodyOfDay24"></div>
+      
 
       <BrowserRouter>
-        <div>
-          <Switch>
-            <Route path="/Day24" exact component={Home} />
-            <Route path="/Day24/about" component={About} />
-            <Route path="/dashboard" component={Dashboard} />
-            <Route path="/profile"> <Profile /></Route>
-          </Switch>
-        </div>
+      <Navbar />
+      <div className="bodyOfDay24"></div>
+        <Switch>
+          <AuthContext>
+          <Route exact path="/Day24"><Home /></Route>
+          <Route exact path="/Day24/about/"><About /></Route>
+          <Route path="/Day24/dashboard"><Dashboard /></Route>
+          <Route path="/Day24/profile/"><Profile /></Route>
+  
+          </AuthContext>
+        </Switch>
       </BrowserRouter>
     </>
   );

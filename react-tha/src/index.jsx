@@ -10,6 +10,7 @@ import Day19App from "./Day_19/day_19_index";
 import Day20App from "./Day_20/day_20_index";
 import Day21App from "./Day21/day_21_index";
 import Day22App from "./Day_22/index"
+import Day23App from "./Day_23/day_23_index"
 import Day24App from "./Day_24/day_24_index";
 
 
@@ -27,8 +28,6 @@ import {
 ReactDOM.render(
     <Router>
 <div>
-  
-    <hr />
     <Switch>
         <Route exact path="/"> <Days /></Route>
         <Route path = "./"></Route>
@@ -40,6 +39,7 @@ ReactDOM.render(
         <Route path="/Day20"> <Day20App /> </Route>
         <Route path="/Day21"> <Day21App /> </Route>
         <Route path="/Day22"> <Day22App /></Route>
+        <Route path="/Day23"> <Day23App /></Route>
         <Route path="/Day24"> <Day24App /></Route>
 
 
