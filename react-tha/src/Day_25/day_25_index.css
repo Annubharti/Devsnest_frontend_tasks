@@ -1,0 +1,16 @@
+.card{
+    width: 28em;
+    height: 350px;
+    border: 2px solid brown;
+    box-shadow: 2px 3px grey;
+    color:black;
+    display: block;
+    margin-top: 10px;
+}
+
+.container{
+    display: block !important;
+}
+.toast{
+    border: 2px solid springgreen;
+}
