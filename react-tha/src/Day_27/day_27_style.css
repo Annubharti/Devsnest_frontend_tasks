@@ -1,0 +1,40 @@
+
+  .day27_todo_list_item{
+      border: 2px dashed  black;
+      padding: 5px;
+      margin: 5px;
+
+  }
+
+  .day27_todolist{
+      border: 2px solid black;
+      width:40%;
+      margin: 0 auto;
+  }
+
+  .day27_deleteBtn{
+    font-size: 22px;
+    display:inline;
+  }
+
+  .day27_todo_list_item > span{
+      display:inline;
+      font-size: 22px;
+      font-weight:bold;
+  }
+
+  .day27_todo_item >input, .day27_todo_item>button{
+    padding: 6px;
+    margin: 6px;
+    font-size: 25px;
+
+  }
+
+  .Day_27_App{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.z--Qt2pp8G9rxko4z09MOAHaHa&pid=Api");
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-position: center;    
+
+
+  }
