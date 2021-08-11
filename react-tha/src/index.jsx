@@ -15,6 +15,7 @@ import Day24App from "./Day_24/day_24_index";
 import Day25App from "./Day_25/Day_25_index";
 import Day26App from "./Day_26/Day_26_index";
 import Day27App from "./Day_27/Day_27_app";
+import Day28App from "./Day_28/day_28_index.jsx";
 
 
 
@@ -48,6 +49,7 @@ ReactDOM.render(
         <Route path="/Day25"> <Day25App /></Route>
         <Route path="/Day26"> <Day26App /></Route>
         <Route path="/Day27"> <Day27App /></Route>
+        <Route path="/Day28"> <Day28App /></Route>
 
         
         

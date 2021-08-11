@@ -31,6 +31,7 @@ function Days(){
         <li> <h1  className="day"><Link to="./Day25">Day 25</Link></h1> </li>
         <li> <h1  className="day"><Link to="./Day26">Day 26</Link></h1> </li>
         <li> <h1  className="day"><Link to="./Day27">Day 27</Link></h1> </li>
+        <li> <h1  className="day"><Link to="./Day28">Day 28</Link></h1> </li>
 
 
 
